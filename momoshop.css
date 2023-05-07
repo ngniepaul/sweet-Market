@@ -1,0 +1,117 @@
+body{
+	overflow-x: hidden;
+}
+.nav-item{
+    color: #ffffff;
+}
+
+/* efet de font de  la barre de navigation */
+nav {
+   background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 37%, rgba(105,204,224,0.9051995798319328) 90%);
+
+}
+a{
+	text-decoration: none;
+    color: #ffffff;
+}
+ /* effet sur la bar de navigation */
+.nav-link{
+margin: 10px;
+
+}
+
+/* effet sur les liens */
+ #navbarSupportedContent a{
+color:#ffffff;font-weight:20px;
+ }
+
+/* effet sur les lien cliques  */
+ #navbarSupportedContent a:hover{
+ 	text-decoration:  underline;
+ }
+
+/* effet de fond page de l'entete
+(zone au dessus de la barre de navigation ) */
+.head{
+	background: rgb(0,29,36);
+background: linear-gradient(90deg, rgba(0,29,36,1) 0%, rgba(105,204,224,0.9051995798319328) 90%);
+padding-bottom: 15px;
+
+}
+
+/* effet de fond du select de la barre de navigation */
+#navbarSupportedContent .dropdown-menu {
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 72%, rgba(105,204,224,0.9051995798319328) 90%);
+}
+
+/* effet  sur les liens de select de la barre de navigation */
+#navbarSupportedContent .dropdown-menu a{
+color:#ffffff;
+font-weight:20px;
+
+}
+
+/* effet sur les bonton (login et create account) */
+#create_account,#login{
+    color:#ffffff;
+    border: solid 1px #ffffff;
+}
+
+/* effet  de clique sur les bonton (login et create account)  */
+#create_account a:hover,#login a:hover{
+	color: #ffffff;
+}
+
+
+#card p{
+	font-size:10px ;
+	font-family: Arial;
+}
+
+
+#sidebar h4{
+	color: #ffffff;
+	background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 72%, rgba(105,204,224,0.9051995798319328) 90%); 
+
+width: 300px;
+border-left:7px solid #00d4ff;
+border-bottom:7px solid #00d4ff;
+border-top:7px solid #00d4ff;
+border-radius: 7px;
+
+}
+
+.head #logo h3{
+	text-align:center ;
+               background-color: black;
+               width:140px ;
+               
+               padding-left: -150px;
+               padding-right: -150px;
+               font-size: 20px;
+
+}
+.administrateur{
+	padding-left:20px; 
+	padding-top: 30px;
+    color: #ffffff;
+    background: rgb(0,29,36);
+background: linear-gradient(90deg, rgba(0,29,36,1) 0%, rgba(105,204,224,0.9051995798319328) 90%);
+
+}
+ 
+.firstrow .administrateur .card img{
+    width: 65%;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+
+#footer{
+	background: rgb(0,29,36);
+background: linear-gradient(90deg, rgba(0,29,36,1) 0%, rgba(105,204,224,0.9051995798319328) 90%);
+
+}
